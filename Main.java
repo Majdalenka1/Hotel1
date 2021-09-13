@@ -23,8 +23,8 @@ class Main {
         bookings.addBooking(booking);
 
         booking = new Booking(jan, room3, LocalDate.of(2021, 9, 1), LocalDate.of(2021, 9, 14), TypeOfStay.WORK);
-        booking.addGuests(new Guest("Adéla", "Malíková", LocalDate.of(2020, 2, 22)));
-        booking.addGuests(new Guest("Jan", "Dvořáček", LocalDate.of(1999, 9, 9)));
+        booking.addGuests(new Guest("Lucie", "Malíková", LocalDate.of(2020, 2, 22)));
+        booking.addGuests(new Guest("Roman", "Dvořáček", LocalDate.of(1999, 9, 9)));
         bookings.addBooking(booking);
 
         bookings.printBookings();
